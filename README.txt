@@ -21,7 +21,4 @@ Changes to make in the ZMI for this product to be set up correctly for the CIDD 
 If you want synopsis view to be the default view for news items (this is the case on the CIDD website), go into portal_types and ensure that it is entered:
 * in the list of available view methods
 * as the default view method
-
-Also in portal_types: 
-* Rename the title field of "News Item" to " Synopsis or news article"
-* Change the description field of "News Item" to "A news article or research synopsis"
+(this should happen automatically on installing the ciddtheme product)
